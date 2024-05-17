@@ -1,0 +1,2008 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 4100
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri May 17 16:36:40 EET 2024
+Time zone: 	Eastern European Standard Time (Africa/Cairo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	C:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	C:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	youssefibrahim
+User home directory: C:/Users/youssefibrahim
+User working directory: C:/Users/youssefibrahim/Desktop/final project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2022.1
+RDI_DATADIR: C:/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/youssefibrahim/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/youssefibrahim/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/youssefibrahim/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/youssefibrahim/Desktop/final project/vivado.log
+Vivado journal file: 	C:/Users/youssefibrahim/Desktop/final project/vivado.jou
+Engine tmp dir: 	C:/Users/youssefibrahim/Desktop/final project/.Xil/Vivado-4100-CSE-P07-2168-83
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2022.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	308 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,363 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\youssefibrahim\Desktop\final project\final project.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project {C:/Users/youssefibrahim/Desktop/final project/final project.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/youssefibrahim/Desktop/final project/final project.xpr} 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/youssefibrahim/Desktop/final project/final project.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 90 MB (+92189kb) [00:00:10]
+// [Engine Memory]: 1,363 MB (+1278114kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  2156 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,363 MB. GUI used memory: 66 MB. Current time: 5/17/24, 4:36:43 PM EET
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:07 . Memory (MB): peak = 1602.047 ; gain = 0.000 
+// [GUI Memory]: 111 MB (+16595kb) [00:00:12]
+// Project name: final project; location: C:/Users/youssefibrahim/Desktop/final project; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 120 MB (+3990kb) [00:00:17]
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/digital_clock.dcp to C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May 17 17:36:49 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 129 MB (+2937kb) [00:00:26]
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 13 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near 'endmodule' [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/hms_counter.v:71]. ]", 4, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\hms_counter.v;-;;-;16;-;line;-;71;-;;-;16;-;"); // ah
+// WARNING: HEventQueue.dispatchEvent() is taking  1373 ms.
+selectCodeEditor("hms_counter.v", 50, 494); // be
+selectCodeEditor("hms_counter.v", 26, 483); // be
+selectCodeEditor("hms_counter.v", 2, 385); // be
+// Elapsed time: 24 seconds
+selectCodeEditor("hms_counter.v", 281, 417); // be
+typeControlKey((HResource) null, "hms_counter.v", 'c'); // be
+// Elapsed time: 146 seconds
+selectCodeEditor("hms_counter.v", 254, 342); // be
+selectCodeEditor("hms_counter.v", 215, 484); // be
+selectCodeEditor("hms_counter.v", 156, 491); // be
+selectCodeEditor("hms_counter.v", 157, 499); // be
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectCodeEditor("hms_counter.v", 218, 283); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 17 17:40:31 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+typeControlKey(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, (String) null, 'a'); // n
+selectCodeEditor("hms_counter.v", 101, 455); // be
+selectCodeEditor("hms_counter.v", 435, 320); // be
+selectCodeEditor("hms_counter.v", 270, 449); // be
+selectCodeEditor("hms_counter.v", 252, 499); // be
+selectCodeEditor("hms_counter.v", 242, 321); // be
+selectCodeEditor("hms_counter.v", 125, 475); // be
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 17 17:41:11 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 137 MB (+1304kb) [00:04:50]
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-165] Too many positional options when parsing 'project.srcs/utils_1/imports/synth_1/digital_clock.dcp', please type 'read_checkpoint -help' for usage info.. ]", 1, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-165] Too many positional options when parsing 'project.srcs/utils_1/imports/synth_1/digital_clock.dcp', please type 'read_checkpoint -help' for usage info.. ]", 1, false, false, false, false, false, true); // ah - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-165] Too many positional options when parsing 'project.srcs/utils_1/imports/synth_1/digital_clock.dcp', please type 'read_checkpoint -help' for usage info.. ]", 1, false); // ah
+selectCodeEditor("hms_counter.v", 294, 330); // be
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 6); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources, utils_1, Design Checkpoint, digital_clock.dcp]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources, utils_1, Design Checkpoint, digital_clock.dcp]", 9, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1/digital_clock.dcp}}] -no_script -reset -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset utils_1 {{C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1/digital_clock.dcp}} 
+// Tcl Message: file delete -force {C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1/digital_clock.dcp} 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May 17 17:41:43 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 42 seconds
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-36] 'segment' is not declared [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/bcd_to_7_segment.v:43]. ]", 1, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\bcd_to_7_segment.v;-;;-;16;-;line;-;43;-;;-;16;-;"); // ah
+// WARNING: HEventQueue.dispatchEvent() is taking  1151 ms.
+selectCodeEditor("bcd_to_7_segment.v", 468, 340); // be
+selectCodeEditor("bcd_to_7_segment.v", 323, 418); // be
+typeControlKey((HResource) null, "bcd_to_7_segment.v", 'v'); // be
+// Elapsed time: 30 seconds
+selectCodeEditor("bcd_to_7_segment.v", 610, 302); // be
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 10); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 11); // D
+selectCodeEditor("bcd_to_7_segment.v", 442, 247); // be
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v), hours_and_mins : hms_counter (hms_counter.v)]", 4); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v), outputnum : fourx1mux (fourx1mux.v)]", 12); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v), outputnum : fourx1mux (fourx1mux.v)]", 12, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v), outputnum : fourx1mux (fourx1mux.v)]", 12, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1165 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("fourx1mux.v", 84, 479); // be
+typeControlKey((HResource) null, "fourx1mux.v", 'v'); // be
+selectCodeEditor("fourx1mux.v", 203, 148); // be
+selectCodeEditor("fourx1mux.v", 84, 402); // be
+// Elapsed time: 29 seconds
+selectCodeEditor("fourx1mux.v", 545, 186); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 1); // m
+selectCodeEditor("hms_counter.v", 89, 242); // be
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectCodeEditor("hms_counter.v", 110, 128); // be
+selectCodeEditor("hms_counter.v", 172, 134); // be
+selectCodeEditor("hms_counter.v", 174, 135); // be
+// Elapsed time: 12 seconds
+selectComboBox("FindAndReplaceDialog.bb_Replace with:", "&&", -1); // JComboBox
+selectButton("FindAndReplaceDialog.bb_Find", "Find"); // JButton
+selectCodeEditor("hms_counter.v", 314, 429); // be
+// Elapsed time: 26 seconds
+selectCodeEditor("hms_counter.v", 621, 265); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v), hours_and_mins : hms_counter (hms_counter.v), sec2_m : counter (counter.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v), hours_and_mins : hms_counter (hms_counter.v), sec2_m : counter (counter.v)]", 7, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1153 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("counter.v", 69, 492); // be
+typeControlKey((HResource) null, "counter.v", 'v'); // be
+selectCodeEditor("counter.v", 436, 412); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v), divide : clk_divider (clk_divider.v)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v), divide : clk_divider (clk_divider.v)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1143 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("clk_divider.v", 86, 482); // be
+typeControlKey((HResource) null, "clk_divider.v", 'v'); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("clk_divider.v", 644, 339); // be
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, digital_clock (digital_clock.v)]", 20, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, digital_clock (digital_clock.v), hours_and_mins : hms_counter (hms_counter.v)]", 23, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1121 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("digital_clock.v", 2, 214); // be
+typeControlKey((HResource) null, "digital_clock.v", 'v'); // be
+selectCodeEditor("digital_clock.v", 153, 502); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 17 17:46:25 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 15 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1206] Syntax error near '&' [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/clk_divider.v:29]. ]", 2, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\clk_divider.v;-;;-;16;-;line;-;29;-;;-;16;-;"); // ah
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Synthesis Failed"); // ag
+selectCodeEditor("clk_divider.v", 67, 398); // be
+selectCodeEditor("clk_divider.v", 527, 412); // be
+selectCodeEditor("clk_divider.v", 653, 421); // be
+selectCodeEditor("clk_divider.v", 0, 293); // be
+typeControlKey((HResource) null, "clk_divider.v", 'v'); // be
+selectCodeEditor("clk_divider.v", 63, 391); // be
+// Elapsed time: 29 seconds
+selectCodeEditor("clk_divider.v", 82, 396); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("clk_divider.v", 86, 428); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Fri May 17 17:48:08 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near '&' [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/counter.v:26]. ]", 2, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\counter.v;-;;-;16;-;line;-;26;-;;-;16;-;"); // ah
+selectCodeEditor("counter.v", 70, 380); // be
+selectCodeEditor("counter.v", 67, 419); // be
+selectCodeEditor("counter.v", 56, 452); // be
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 14 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Synthesis Failed"); // ag
+selectCodeEditor("counter.v", 72, 455); // be
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-849] Syntax error : file ended before end of clause. [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/fourx1mux.v:43]. ]", 6, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\fourx1mux.v;-;;-;16;-;line;-;43;-;;-;16;-;"); // ah
+selectCodeEditor("fourx1mux.v", 51, 387); // be
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1206] Syntax error near '&' [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/counter.v:26]. ]", 5, true); // ah - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 17 17:49:02 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-849] Syntax error : file ended before end of clause. [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/fourx1mux.v:43]. ]", 2, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\fourx1mux.v;-;;-;16;-;line;-;43;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-849] Syntax error : file ended before end of clause. [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/fourx1mux.v:43]. ]", 2, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\fourx1mux.v;-;;-;16;-;line;-;43;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-849] Syntax error : file ended before end of clause. [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/fourx1mux.v:43]. ]", 2, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\fourx1mux.v;-;;-;16;-;line;-;43;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-849] Syntax error : file ended before end of clause. [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/fourx1mux.v:43]. ]", 2, false, false, false, false, false, true); // ah - Double Click
+selectCodeEditor("fourx1mux.v", 108, 478); // be
+selectCodeEditor("fourx1mux.v", 86, 295); // be
+selectCodeEditor("fourx1mux.v", 100, 260); // be
+selectCodeEditor("fourx1mux.v", 131, 219); // be
+selectCodeEditor("fourx1mux.v", 126, 259); // be
+selectCodeEditor("fourx1mux.v", 118, 281); // be
+selectCodeEditor("fourx1mux.v", 143, 336); // be
+selectCodeEditor("fourx1mux.v", 264, 386); // be
+selectCodeEditor("fourx1mux.v", 252, 410); // be
+selectCodeEditor("fourx1mux.v", 246, 422); // be
+selectCodeEditor("fourx1mux.v", 229, 456); // be
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near '(' [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/hms_counter.v:1]. ]", 3, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\hms_counter.v;-;;-;16;-;line;-;1;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near '(' [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/hms_counter.v:1]. ]", 3, true, false, false, false, false, true); // ah - Double Click - Node
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("hms_counter.v", 210, 9); // be
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectCodeEditor("hms_counter.v", 5, 11); // be
+selectCodeEditor("hms_counter.v", 203, 348); // be
+selectCodeEditor("hms_counter.v", 150, 379); // be
+selectCodeEditor("hms_counter.v", 128, 366); // be
+selectCodeEditor("hms_counter.v", 318, 347); // be
+selectCodeEditor("hms_counter.v", 127, 374); // be
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near '(' [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/hms_counter.v:1]. ]", 3, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\hms_counter.v;-;;-;16;-;line;-;1;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near '(' [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/hms_counter.v:1]. ]", 3, true, false, false, false, false, true); // ah - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near '(' [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/hms_counter.v:1]. , [HDL 9-1206] Syntax error near 'output' [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/hms_counter.v:2]. ]", 4, false, false, false, false, false, true); // ah - Double Click
+selectCodeEditor("hms_counter.v", 175, 199); // be
+selectCodeEditor("hms_counter.v", 176, 253); // be
+selectCodeEditor("hms_counter.v", 235, 245); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 17 17:50:06 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-849] Syntax error : file ended before end of clause. [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/fourx1mux.v:43]. ]", 2, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\fourx1mux.v;-;;-;16;-;line;-;43;-;;-;16;-;"); // ah
+selectCodeEditor("fourx1mux.v", 26, 473); // be
+selectCodeEditor("fourx1mux.v", 27, 479); // be
+selectCodeEditor("fourx1mux.v", 126, 478); // be
+selectCodeEditor("fourx1mux.v", 15, 487); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v), divide : clk_divider (clk_divider.v)]", 6, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, digital_clock (digital_clock.v), divide : clk_divider (clk_divider.v)]", 6, true, false, false, false, false, true); // D - Double Click - Node
+dismissDialog("Opening Editor"); // bA
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, fourx1mux.v]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, fourx1mux.v]", 2, false, false, false, false, false, true); // D - Double Click
+dismissDialog("Opening Editor"); // bA
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // f
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 17 17:50:35 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// [GUI Memory]: 145 MB (+1660kb) [00:14:04]
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near 'endmodule' [C:/Users/youssefibrahim/Desktop/final project/final project.srcs/sources_1/new/fourx1mux.v:43]. ]", 2, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\youssefibrahim\Desktop\final project\final project.srcs\sources_1\new\fourx1mux.v;-;;-;16;-;line;-;43;-;;-;16;-;"); // ah
+selectCodeEditor("fourx1mux.v", 95, 477); // be
+selectCodeEditor("fourx1mux.v", 89, 465); // be
+selectCodeEditor("fourx1mux.v", 90, 501); // be
+selectCodeEditor("fourx1mux.v", 90, 501, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 54, 471); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectCheckBox(PAResourceItoN.LaunchPanel_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Launch Runs"); // f
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 17 17:51:00 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.v", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 1); // m
+selectCodeEditor("hms_counter.v", 244, 238); // be
+selectCodeEditor("hms_counter.v", 454, 211); // be
+selectCodeEditor("hms_counter.v", 452, 232); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("hms_counter.v", 152, 222); // be
+typeControlKey((HResource) null, "hms_counter.v", 'c'); // be
+selectCodeEditor("hms_counter.v", 75, 249); // be
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+typeControlKey(null, null, 'z');
+selectCodeEditor("hms_counter.v", 157, 247); // be
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 13 seconds
+dismissDialog("Synthesis Completed"); // ag
+typeControlKey(null, null, 'z');
+selectCodeEditor("hms_counter.v", 220, 231); // be
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // n - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri May 17 17:52:12 2024] Launched impl_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 153 MB (+440kb) [00:15:45]
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ar
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2022.1   **** Build date : Apr 18 2022 at 16:02:36     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2022.1.0   ****** Build date   : Apr 12 2022-21:12:08     **** Build number : 2022.1.1649790728       ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:22 . Memory (MB): peak = 1602.047 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  6093 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AB3F9CA 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,146 MB. GUI used memory: 97 MB. Current time: 5/17/24, 4:52:49 PM EET
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3296.500 ; gain = 1694.453 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 28 seconds
+dismissDialog("Auto Connect"); // bA
+// [Engine Memory]: 3,147 MB (+1798654kb) [00:16:18]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectCodeEditor("digital_clock.v", 263, 385); // be
+selectCodeEditor("digital_clock.v", 263, 385, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 337, 249); // be
+selectCodeEditor("digital_clock.v", 270, 381); // be
+selectCodeEditor("digital_clock.v", 270, 381, false, false, false, false, true); // be - Double Click
+// TclEventType: RUN_STEP_COMPLETED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// HOptionPane Error: 'Please specify a file name (Invalid File Name)'
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,165 MB. GUI used memory: 88 MB. Current time: 5/17/24, 4:53:26 PM EET
+// Elapsed time: 16 seconds
+dismissFileChooser();
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+// 'I' command handler elapsed time: 24 seconds
+dismissDialog("Program Device"); // bC
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183AB3F9CA (1) ; Open", 1, "xilinx_tcf/Digilent/210183AB3F9CA (1)", 0, true); // t - Node
+// PAResourceOtoP.PAViews_HARDWARE: Hardware: close view
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// 'k' command handler elapsed time: 3 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // n - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // n - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 9, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 9, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, digital_clock.xdc]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, digital_clock.xdc]", 11, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1202 ms.
+dismissDialog("Opening Editor"); // bA
+selectCodeEditor("digital_clock.xdc", 301, 484); // be
+selectCodeEditor("digital_clock.xdc", 301, 484, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.xdc", 327, 502); // be
+selectCodeEditor("digital_clock.xdc", 327, 502, false, false, false, false, true); // be - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 6); // m
+selectCodeEditor("digital_clock.v", 563, 252); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 19, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/youssefibrahim/Desktop/final project/final project.runs/impl_1/digital_clock.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bA
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 0); // m
+selectCodeEditor("hms_counter.v", 166, 251); // be
+selectCodeEditor("hms_counter.v", 159, 174); // be
+selectCodeEditor("hms_counter.v", 177, 193); // be
+selectCodeEditor("hms_counter.v", 176, 192, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 281, 206); // be
+selectCodeEditor("hms_counter.v", 213, 201); // be
+selectCodeEditor("hms_counter.v", 264, 193); // be
+selectCodeEditor("hms_counter.v", 299, 190); // be
+selectCodeEditor("hms_counter.v", 76, 195); // be
+selectCodeEditor("hms_counter.v", 101, 193); // be
+selectCodeEditor("hms_counter.v", 160, 200); // be
+selectCodeEditor("hms_counter.v", 208, 192); // be
+selectCodeEditor("hms_counter.v", 150, 301); // be
+selectCodeEditor("hms_counter.v", 150, 301, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 19, 321); // be
+selectCodeEditor("hms_counter.v", 103, 312); // be
+selectCodeEditor("hms_counter.v", 115, 313); // be
+selectCodeEditor("hms_counter.v", 101, 320); // be
+selectCodeEditor("hms_counter.v", 124, 318); // be
+selectCodeEditor("hms_counter.v", 156, 350); // be
+selectCodeEditor("hms_counter.v", 35, 317); // be
+// Elapsed time: 29 seconds
+selectCodeEditor("hms_counter.v", 76, 9); // be
+selectCodeEditor("hms_counter.v", 76, 9, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 281, 173); // be
+selectCodeEditor("hms_counter.v", 51, 23); // be
+selectCodeEditor("hms_counter.v", 73, 46); // be
+selectCodeEditor("hms_counter.v", 67, 62); // be
+selectCodeEditor("hms_counter.v", 66, 75); // be
+selectCodeEditor("hms_counter.v", 147, 469); // be
+selectCodeEditor("hms_counter.v", 153, 383); // be
+selectCodeEditor("hms_counter.v", 131, 72); // be
+selectCodeEditor("hms_counter.v", 132, 72, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 132, 54); // be
+selectCodeEditor("hms_counter.v", 170, 135); // be
+selectCodeEditor("hms_counter.v", 96, 111); // be
+selectCodeEditor("hms_counter.v", 79, 132); // be
+selectCodeEditor("hms_counter.v", 167, 126); // be
+selectCodeEditor("hms_counter.v", 151, 151); // be
+selectCodeEditor("hms_counter.v", 143, 167); // be
+selectCodeEditor("hms_counter.v", 216, 192); // be
+selectCodeEditor("hms_counter.v", 161, 242); // be
+selectCodeEditor("hms_counter.v", 278, 205); // be
+selectCodeEditor("hms_counter.v", 288, 229); // be
+selectCodeEditor("hms_counter.v", 346, 251); // be
+selectCodeEditor("hms_counter.v", 342, 263); // be
+selectCodeEditor("hms_counter.v", 343, 293); // be
+selectCodeEditor("hms_counter.v", 343, 284); // be
+selectCodeEditor("hms_counter.v", 342, 302); // be
+selectCodeEditor("hms_counter.v", 328, 325); // be
+selectCodeEditor("hms_counter.v", 467, 344); // be
+selectCodeEditor("hms_counter.v", 345, 390); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("hms_counter.v", 213, 104); // be
+// Elapsed time: 26 seconds
+selectCodeEditor("hms_counter.v", 290, 161); // be
+selectCodeEditor("hms_counter.v", 297, 165); // be
+selectCodeEditor("hms_counter.v", 298, 153); // be
+selectCodeEditor("hms_counter.v", 300, 161); // be
+selectCodeEditor("hms_counter.v", 300, 161, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 190, 157); // be
+selectCodeEditor("hms_counter.v", 219, 157); // be
+// Elapsed time: 80 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectCodeEditor("bcd_to_7_segment.v", 615, 20); // be
+selectCodeEditor("bcd_to_7_segment.v", 673, 9); // be
+selectCodeEditor("bcd_to_7_segment.v", 500, 5); // be
+selectCodeEditor("bcd_to_7_segment.v", 500, 5, false, false, false, false, true); // be - Double Click
+selectCodeEditor("bcd_to_7_segment.v", 124, 164); // be
+selectCodeEditor("bcd_to_7_segment.v", 124, 164, false, false, false, false, true); // be - Double Click
+selectCodeEditor("bcd_to_7_segment.v", 133, 196); // be
+selectCodeEditor("bcd_to_7_segment.v", 133, 196, false, false, false, false, true); // be - Double Click
+selectCodeEditor("bcd_to_7_segment.v", 154, 267); // be
+selectCodeEditor("bcd_to_7_segment.v", 153, 268, false, false, false, false, true); // be - Double Click
+selectCodeEditor("bcd_to_7_segment.v", 129, 148); // be
+selectCodeEditor("bcd_to_7_segment.v", 48, 77); // be
+selectCodeEditor("bcd_to_7_segment.v", 114, 293); // be
+selectCodeEditor("bcd_to_7_segment.v", 113, 275); // be
+selectCodeEditor("bcd_to_7_segment.v", 128, 238); // be
+selectCodeEditor("bcd_to_7_segment.v", 132, 242, false, false, false, false, true); // be - Double Click
+selectCodeEditor("bcd_to_7_segment.v", 154, 316); // be
+selectCodeEditor("bcd_to_7_segment.v", 154, 316, false, false, false, false, true); // be - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+// Elapsed time: 14 seconds
+selectCodeEditor("fourx1mux.v", 180, 118); // be
+selectCodeEditor("fourx1mux.v", 180, 118); // be
+selectCodeEditor("fourx1mux.v", 180, 118, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 50, 251); // be
+selectCodeEditor("fourx1mux.v", 50, 251, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 61, 274); // be
+selectCodeEditor("fourx1mux.v", 63, 274, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 142, 279); // be
+selectCodeEditor("fourx1mux.v", 142, 279, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 237, 280); // be
+selectCodeEditor("fourx1mux.v", 237, 280, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 273, 278); // be
+selectCodeEditor("fourx1mux.v", 274, 278, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 155, 388); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.v", 3); // m
+selectCodeEditor("counter.v", 61, 419); // be
+selectCodeEditor("counter.v", 70, 398); // be
+selectCodeEditor("counter.v", 72, 398, false, false, false, false, true); // be - Double Click
+selectCodeEditor("counter.v", 78, 379); // be
+selectCodeEditor("counter.v", 78, 379, false, false, false, false, true); // be - Double Click
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AB3F9CA 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 11 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // n
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 19, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/youssefibrahim/Desktop/final project/final project.runs/impl_1/digital_clock.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bA
+selectCodeEditor("counter.v", 218, 395); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.xdc", 6); // m
+// HMemoryUtils.trashcanNow. Engine heap size: 3,186 MB. GUI used memory: 92 MB. Current time: 5/17/24, 4:59:31 PM EET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectCodeEditor("digital_clock.v", 2, 334); // be
+// Elapsed time: 15 seconds
+selectCodeEditor("digital_clock.v", 202, 446); // be
+selectCodeEditor("digital_clock.v", 157, 432); // be
+selectCodeEditor("digital_clock.v", 243, 446); // be
+selectCodeEditor("digital_clock.v", 136, 436); // be
+selectCodeEditor("digital_clock.v", 131, 333); // be
+selectCodeEditor("digital_clock.v", 87, 440); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.xdc", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectCodeEditor("digital_clock.v", 503, 422); // be
+selectCodeEditor("digital_clock.v", 12, 451, false, false, false, true, false); // be - Popup Trigger
+selectCodeEditor("digital_clock.v", 468, 462); // be
+selectCodeEditor("digital_clock.v", 51, 449); // be
+selectCodeEditor("digital_clock.v", 51, 449, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 48, 451); // be
+selectCodeEditor("digital_clock.v", 53, 456); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.xdc", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 19, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/youssefibrahim/Desktop/final project/final project.runs/impl_1/digital_clock.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bA
+selectCodeEditor("digital_clock.v", 65, 450); // be
+selectCodeEditor("digital_clock.v", 69, 453, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 72, 463); // be
+selectCodeEditor("digital_clock.v", 197, 350); // be
+selectCodeEditor("digital_clock.v", 128, 457); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("digital_clock.v", 73, 448); // be
+selectCodeEditor("digital_clock.v", 73, 448, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 65, 454); // be
+selectCodeEditor("digital_clock.v", 23, 445); // be
+selectCodeEditor("digital_clock.v", 23, 445, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 23, 445); // be
+selectCodeEditor("digital_clock.v", 55, 452); // be
+selectCodeEditor("digital_clock.v", 39, 448); // be
+selectCodeEditor("digital_clock.v", 116, 327); // be
+selectCodeEditor("digital_clock.v", 61, 334); // be
+selectCodeEditor("digital_clock.v", 72, 326); // be
+selectCodeEditor("digital_clock.v", 59, 328); // be
+selectCodeEditor("digital_clock.v", 97, 434); // be
+selectCodeEditor("digital_clock.v", 96, 336); // be
+selectCodeEditor("digital_clock.v", 96, 336, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 73, 459); // be
+selectCodeEditor("digital_clock.v", 73, 449); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: FILE_SET_CHANGE
+// 'cW' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 17 18:01:37 2024] Launched impl_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 178, 71); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 369, 44); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 459, 70); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 685, 7); // dT
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 862, 61); // dT
+selectCodeEditor("digital_clock.v", 169, 328); // be
+selectCodeEditor("digital_clock.v", 41, 442); // be
+selectCodeEditor("digital_clock.v", 101, 323); // be
+selectCodeEditor("digital_clock.v", 101, 323, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 175, 228); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 19, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// HOptionPane Error: 'The file 'C:/Users/youssefibrahim/Desktop/final project/final project.runs/impl_1/ digital_clock.bit' does not exist. Please specify a valid file name. (Invalid File Name)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// HOptionPane Error: 'The file 'C:/Users/youssefibrahim/Desktop/final project/final project.runs/impl_1/ digital_clock.bit' does not exist. Please specify a valid file name. (Invalid File Name)'
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// 'I' command handler elapsed time: 13 seconds
+dismissDialog("Program Device"); // bC
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+selectButton(PAResourceQtoS.StaleRunDialog_YES, "Yes"); // a
+dismissDialog("Implementation is Out-of-date"); // cj
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,671 MB. GUI used memory: 93 MB. Current time: 5/17/24, 5:02:26 PM EET
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,173 MB. GUI used memory: 93 MB. Current time: 5/17/24, 5:02:33 PM EET
+// [Engine Memory]: 4,173 MB (+910989kb) [00:26:02]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1466 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3703.742 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2022.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 4367.520 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 4367.520 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4367.520 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// [GUI Memory]: 168 MB (+8276kb) [00:26:04]
+// TclEventType: DRC_ADDED
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 4514.980 ; gain = 1162.004 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 179 MB (+1984kb) [00:26:06]
+// 'eq' command handler elapsed time: 17 seconds
+// Elapsed time: 16 seconds
+dismissDialog("Open Implemented Design"); // bA
+// Device view-level: 0.0
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Methodology Violations"); // aV
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // n - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// [GUI Memory]: 188 MB (+114kb) [00:26:09]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // n - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AB3F9CA. ]", 2, false); // ah
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 26, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/digital_clock.dcp to C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+dismissDialog("Resetting Runs"); // bA
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 17 18:02:51 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log [Fri May 17 18:02:51 2024] Launched impl_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 19 seconds
+selectCheckBox(PAResourceCommand.PACommandNames_MESSAGE_WINDOW, "View Messages", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AB3F9CA. ]", 2, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AB3F9CA. ]", 2, false, false, false, false, false, true); // ah - Double Click
+selectCodeEditor("digital_clock.v", 84, 384); // be
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 5); // m
+selectCodeEditor("clk_divider.v", 259, 296); // be
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.v", 4); // m
+selectCodeEditor("counter.v", 266, 358); // be
+selectCodeEditor("counter.v", 271, 309); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.v", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 3); // m
+selectCodeEditor("fourx1mux.v", 311, 342); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 2); // m
+selectCodeEditor("bcd_to_7_segment.v", 109, 392); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 1); // m
+selectCodeEditor("hms_counter.v", 212, 168); // be
+selectCodeEditor("hms_counter.v", 203, 195); // be
+selectCodeEditor("hms_counter.v", 248, 179); // be
+// Elapsed time: 38 seconds
+selectCodeEditor("hms_counter.v", 127, 163); // be
+selectCodeEditor("hms_counter.v", 153, 170); // be
+selectCodeEditor("hms_counter.v", 165, 160); // be
+selectCodeEditor("hms_counter.v", 235, 271); // be
+selectCodeEditor("hms_counter.v", 191, 172); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("hms_counter.v", 152, 169); // be
+selectCodeEditor("hms_counter.v", 150, 178); // be
+// Elapsed time: 31 seconds
+selectCodeEditor("hms_counter.v", 144, 314); // be
+selectCodeEditor("hms_counter.v", 158, 164); // be
+selectCodeEditor("hms_counter.v", 138, 234); // be
+selectCodeEditor("hms_counter.v", 122, 253); // be
+selectCodeEditor("hms_counter.v", 133, 205); // be
+selectCodeEditor("hms_counter.v", 35, 234); // be
+selectCodeEditor("hms_counter.v", 144, 192); // be
+typeControlKey((HResource) null, "hms_counter.v", 'c'); // be
+selectCodeEditor("hms_counter.v", 17, 231); // be
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectCodeEditor("hms_counter.v", 104, 227); // be
+// Elapsed time: 15 seconds
+selectCodeEditor("hms_counter.v", 125, 225); // be
+selectCodeEditor("hms_counter.v", 34, 226); // be
+// Elapsed time: 15 seconds
+selectCodeEditor("hms_counter.v", 494, 234); // be
+selectCodeEditor("hms_counter.v", 141, 231); // be
+selectCodeEditor("hms_counter.v", 497, 240); // be
+selectCodeEditor("hms_counter.v", 494, 227); // be
+selectCodeEditor("hms_counter.v", 94, 252); // be
+selectCodeEditor("hms_counter.v", 135, 349); // be
+selectCodeEditor("hms_counter.v", 83, 289); // be
+selectCodeEditor("hms_counter.v", 144, 395); // be
+typeControlKey((HResource) null, "hms_counter.v", 'c'); // be
+selectCodeEditor("hms_counter.v", 20, 282); // be
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectCodeEditor("hms_counter.v", 39, 237); // be
+selectCodeEditor("hms_counter.v", 38, 232); // be
+selectCodeEditor("hms_counter.v", 170, 330); // be
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("hms_counter.v", 35, 233); // be
+selectCodeEditor("hms_counter.v", 34, 296); // be
+// Elapsed time: 58 seconds
+selectCodeEditor("hms_counter.v", 132, 408); // be
+selectCodeEditor("hms_counter.v", 26, 356); // be
+selectCodeEditor("hms_counter.v", 43, 333); // be
+typeControlKey((HResource) null, "hms_counter.v", 'c'); // be
+selectCodeEditor("hms_counter.v", 73, 353); // be
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectCodeEditor("hms_counter.v", 58, 350); // be
+selectCodeEditor("hms_counter.v", 96, 346); // be
+selectCodeEditor("hms_counter.v", 128, 353); // be
+selectCodeEditor("hms_counter.v", 122, 349); // be
+// Elapsed time: 19 seconds
+selectCodeEditor("hms_counter.v", 56, 368); // be
+selectCodeEditor("hms_counter.v", 56, 368, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 211, 411); // be
+selectCodeEditor("hms_counter.v", 95, 372); // be
+typeControlKey((HResource) null, "hms_counter.v", 'c'); // be
+selectCodeEditor("hms_counter.v", 719, 347); // be
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectCodeEditor("hms_counter.v", 138, 475); // be
+selectCodeEditor("hms_counter.v", 34, 270); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 2); // m
+selectCodeEditor("bcd_to_7_segment.v", 257, 7); // be
+selectCodeEditor("bcd_to_7_segment.v", 241, 11); // be
+selectCodeEditor("bcd_to_7_segment.v", 241, 11, false, false, false, false, true); // be - Double Click
+selectCodeEditor("bcd_to_7_segment.v", 362, 11); // be
+selectCodeEditor("bcd_to_7_segment.v", 362, 11, false, false, false, false, true); // be - Double Click
+selectCodeEditor("bcd_to_7_segment.v", 286, 79); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 2); // m
+// [GUI Memory]: 198 MB (+1488kb) [00:33:46]
+selectCodeEditor("bcd_to_7_segment.v", 207, 13); // be
+selectCodeEditor("bcd_to_7_segment.v", 358, 78); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 6); // m
+selectCodeEditor("digital_clock.v", 190, 418); // be
+selectCodeEditor("digital_clock.v", 240, 416); // be
+selectCodeEditor("digital_clock.v", 327, 418); // be
+selectCodeEditor("digital_clock.v", 199, 419); // be
+selectCodeEditor("digital_clock.v", 199, 419, false, false, false, false, true); // be - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("digital_clock.v", 486, 424); // be
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 3); // m
+selectCodeEditor("fourx1mux.v", 97, 143); // be
+selectCodeEditor("fourx1mux.v", 97, 143, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 109, 158); // be
+selectCodeEditor("fourx1mux.v", 114, 160); // be
+selectCodeEditor("fourx1mux.v", 105, 194); // be
+selectCodeEditor("fourx1mux.v", 138, 216); // be
+selectCodeEditor("fourx1mux.v", 138, 216, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 182, 246); // be
+selectCodeEditor("fourx1mux.v", 131, 219); // be
+selectCodeEditor("fourx1mux.v", 131, 219, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 151, 451); // be
+selectCodeEditor("fourx1mux.v", 171, 410); // be
+selectCodeEditor("fourx1mux.v", 143, 449); // be
+selectCodeEditor("fourx1mux.v", 129, 438); // be
+selectCodeEditor("fourx1mux.v", 54, 368); // be
+selectCodeEditor("fourx1mux.v", 54, 368, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 101, 388); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("fourx1mux.v", 129, 440); // be
+selectCodeEditor("fourx1mux.v", 152, 430); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("fourx1mux.v", 140, 196); // be
+selectCodeEditor("fourx1mux.v", 157, 434); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("fourx1mux.v", 113, 383); // be
+selectCodeEditor("fourx1mux.v", 137, 438); // be
+typeControlKey((HResource) null, "fourx1mux.v", 'c'); // be
+selectCodeEditor("fourx1mux.v", 97, 437); // be
+selectCodeEditor("fourx1mux.v", 126, 437); // be
+selectCodeEditor("fourx1mux.v", 28, 399, false, false, false, true, false); // be - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ar
+selectCodeEditor("fourx1mux.v", 108, 362); // be
+typeControlKey((HResource) null, "fourx1mux.v", 'v'); // be
+selectCodeEditor("fourx1mux.v", 61, 386); // be
+selectCodeEditor("fourx1mux.v", 65, 400); // be
+selectCodeEditor("fourx1mux.v", 263, 428); // be
+selectCodeEditor("fourx1mux.v", 63, 416); // be
+selectCodeEditor("fourx1mux.v", 231, 431); // be
+selectCodeEditor("fourx1mux.v", 112, 437); // be
+selectCodeEditor("fourx1mux.v", 55, 441); // be
+selectCodeEditor("fourx1mux.v", 66, 433); // be
+selectCodeEditor("fourx1mux.v", 182, 406); // be
+selectCodeEditor("fourx1mux.v", 188, 410); // be
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 14); // n
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 14); // n
+// Run Command: PAResourceCommand.PACommandNames_SHOW_IMPLEMENTED_DESIGN
+// Device view-level: 0.0
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j
+closeTask("Implementation", "Implemented Design", "DesignTask.RESULTS_ANALYSIS");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,364 MB. GUI used memory: 128 MB. Current time: 5/17/24, 5:12:40 PM EET
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 4,364 MB. GUI used memory: 129 MB. Current time: 5/17/24, 5:12:40 PM EET
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 10, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 17 18:12:45 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources, utils_1]", 13); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources, utils_1, Design Checkpoint, digital_clock.dcp]", 15, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1/digital_clock.dcp}}] -no_script -reset -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset utils_1 {{C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1/digital_clock.dcp}} 
+// Tcl Message: file delete -force {C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1/digital_clock.dcp} 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 10, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May 17 18:12:58 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 44 seconds
+dismissDialog("Synthesis Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 16, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri May 17 18:13:45 2024] Launched impl_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 30 seconds
+selectCodeEditor("fourx1mux.v", 123, 501); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 3); // m
+selectCodeEditor("fourx1mux.v", 164, 10); // be
+selectCodeEditor("fourx1mux.v", 177, 13); // be
+typeControlKey((HResource) null, "fourx1mux.v", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 3); // m
+selectCodeEditor("fourx1mux.v", 631, 329); // be
+selectCodeEditor("fourx1mux.v", 0, 382); // be
+typeControlKey((HResource) null, "fourx1mux.v", 'c'); // be
+selectCodeEditor("fourx1mux.v", 275, 187); // be
+selectCodeEditor("fourx1mux.v", 162, 6); // be
+typeControlKey((HResource) null, "fourx1mux.v", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 1); // m
+selectCodeEditor("hms_counter.v", 1, 7); // be
+selectCodeEditor("hms_counter.v", 518, 153); // be
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 18, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 19, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/youssefibrahim/Desktop/final project/final project.runs/impl_1/digital_clock.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bA
+// Elapsed time: 48 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+selectCodeEditor("fourx1mux.v", 133, 352); // be
+selectCodeEditor("fourx1mux.v", 94, 307); // be
+selectCodeEditor("fourx1mux.v", 96, 301); // be
+selectCodeEditor("fourx1mux.v", 96, 301, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 94, 318); // be
+selectCodeEditor("fourx1mux.v", 94, 318, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 81, 335); // be
+selectCodeEditor("fourx1mux.v", 81, 335, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 94, 349); // be
+selectCodeEditor("fourx1mux.v", 94, 349, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 174, 128); // be
+selectCodeEditor("fourx1mux.v", 174, 128, false, false, false, false, true); // be - Double Click
+selectCodeEditor("fourx1mux.v", 283, 296); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectCodeEditor("bcd_to_7_segment.v", 167, 133); // be
+selectCodeEditor("bcd_to_7_segment.v", 157, 111); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+selectCodeEditor("fourx1mux.v", 159, 416); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectCodeEditor("digital_clock.v", 174, 11); // be
+typeControlKey((HResource) null, "digital_clock.v", 'c'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectCodeEditor("bcd_to_7_segment.v", 2, 7); // be
+typeControlKey((HResource) null, "bcd_to_7_segment.v", 'v'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 0); // m
+selectCodeEditor("hms_counter.v", 0, 10); // be
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.xdc", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 0); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectCodeEditor("digital_clock.v", 300, 230); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("digital_clock.v", 68, 303); // be
+selectCodeEditor("digital_clock.v", 152, 322); // be
+selectCodeEditor("digital_clock.v", 475, 403); // be
+selectCodeEditor("digital_clock.v", 514, 421); // be
+selectCodeEditor("digital_clock.v", 101, 453); // be
+selectCodeEditor("digital_clock.v", 62, 443); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("digital_clock.v", 472, 406); // be
+selectCodeEditor("digital_clock.v", 615, 414); // be
+selectCodeEditor("digital_clock.v", 482, 406); // be
+selectCodeEditor("digital_clock.v", 487, 409); // be
+selectCodeEditor("digital_clock.v", 481, 409); // be
+selectCodeEditor("digital_clock.v", 407, 315); // be
+selectCodeEditor("digital_clock.v", 495, 409); // be
+selectCodeEditor("digital_clock.v", 509, 238); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 0); // m
+selectCodeEditor("hms_counter.v", 166, 110); // be
+selectCodeEditor("hms_counter.v", 290, 131); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 10, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/digital_clock.dcp to C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri May 17 18:17:58 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources, utils_1]", 13); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources, utils_1, Design Checkpoint, digital_clock.dcp]", 15, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1/digital_clock.dcp}}] -no_script -reset -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset utils_1 {{C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1/digital_clock.dcp}} 
+// Tcl Message: file delete -force {C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1/digital_clock.dcp} 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 10, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May 17 18:18:17 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 10, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May 17 18:18:18 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 10, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May 17 18:18:23 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 3); // m
+selectCodeEditor("fourx1mux.v", 123, 431); // be
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Fri May 17 18:19:02 2024] Launched impl_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("fourx1mux.v", 136, 438); // be
+selectCodeEditor("fourx1mux.v", 117, 435); // be
+selectCodeEditor("fourx1mux.v", 219, 448); // be
+// TclEventType: RUN_STEP_COMPLETED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.xdc", 7); // m
+selectCodeEditor("digital_clock.xdc", 398, 467); // be
+selectCodeEditor("digital_clock.xdc", 380, 457); // be
+selectCodeEditor("digital_clock.xdc", 404, 435); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 18, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+dismissDialog("Open Hardware Manager"); // bA
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2022.1   **** Build date : Apr 18 2022 at 16:02:36     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2022.1.0   ****** Build date   : Apr 12 2022-21:12:08     **** Build number : 2022.1.1649790728       ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 4528.164 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AB3F9CA 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 21 seconds
+dismissDialog("Auto Connect"); // bA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 19, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+dismissDialog("Program Device"); // bC
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 19, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+dismissDialog("Implementation Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 19, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // s
+dismissFileChooser();
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// HOptionPane Error: 'Please specify a file name (Invalid File Name)'
+selectButton("OptionPane.button", "OK"); // JButton
+// 'I' command handler elapsed time: 8 seconds
+dismissDialog("Program Device"); // bC
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 19, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // s
+// Elapsed time: 13 seconds
+dismissFileChooser();
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+// 'I' command handler elapsed time: 16 seconds
+dismissDialog("Program Device"); // bC
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 19, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+dismissDialog("Program Device"); // bC
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 19, false); // n
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+dismissDialog("Program Device"); // bC
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // g
+selectMenuItem((HResource) null, "xc7a35t_0"); // ar
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 44 seconds
+selectCodeEditor("hms_counter.v", 296, 231); // be
+selectCodeEditor("hms_counter.v", 296, 230, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 296, 230); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.v", 3); // m
+// Elapsed time: 10 seconds
+selectCodeEditor("counter.v", 421, 302); // be
+selectCodeEditor("counter.v", 421, 302, false, false, false, false, true); // be - Double Click
+selectCodeEditor("counter.v", 27, 366); // be
+// Elapsed time: 22 seconds
+selectCodeEditor("counter.v", 351, 294); // be
+selectCodeEditor("counter.v", 151, 455); // be
+selectCodeEditor("counter.v", 315, 349); // be
+selectCodeEditor("counter.v", 205, 460); // be
+selectCodeEditor("counter.v", 204, 454); // be
+// Elapsed time: 15 seconds
+selectCodeEditor("counter.v", 83, 484); // be
+selectCodeEditor("counter.v", 304, 445); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.xdc", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 0); // m
+selectCodeEditor("hms_counter.v", 281, 247); // be
+selectCodeEditor("hms_counter.v", 281, 247, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 268, 208); // be
+selectCodeEditor("hms_counter.v", 252, 180); // be
+selectCodeEditor("hms_counter.v", 252, 180, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 289, 279); // be
+selectCodeEditor("hms_counter.v", 289, 279, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 289, 279); // be
+selectCodeEditor("hms_counter.v", 200, 334); // be
+selectCodeEditor("hms_counter.v", 200, 334, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 200, 334); // be
+selectCodeEditor("hms_counter.v", 167, 347); // be
+selectCodeEditor("hms_counter.v", 167, 347, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 167, 347); // be
+selectCodeEditor("hms_counter.v", 218, 333); // be
+selectCodeEditor("hms_counter.v", 99, 333); // be
+selectCodeEditor("hms_counter.v", 92, 338); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("hms_counter.v", 782, 337); // be
+selectCodeEditor("hms_counter.v", 97, 330); // be
+selectCodeEditor("hms_counter.v", 102, 329); // be
+selectCodeEditor("hms_counter.v", 102, 329, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 269, 333); // be
+selectCodeEditor("hms_counter.v", 205, 386); // be
+selectCodeEditor("hms_counter.v", 124, 383); // be
+selectCodeEditor("hms_counter.v", 205, 382); // be
+// Elapsed time: 28 seconds
+selectCodeEditor("hms_counter.v", 308, 340); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("hms_counter.v", 48, 351); // be
+selectCodeEditor("hms_counter.v", 48, 351, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 48, 351); // be
+selectCodeEditor("hms_counter.v", 48, 351, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 48, 351); // be
+selectCodeEditor("hms_counter.v", 48, 351); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("hms_counter.v", 97, 358); // be
+// Elapsed time: 17 seconds
+selectCodeEditor("hms_counter.v", 311, 382); // be
+// Elapsed time: 20 seconds
+selectCodeEditor("hms_counter.v", 419, 435); // be
+selectCodeEditor("hms_counter.v", 369, 443); // be
+selectCodeEditor("hms_counter.v", 517, 486); // be
+selectCodeEditor("hms_counter.v", 440, 483); // be
+selectCodeEditor("hms_counter.v", 337, 483); // be
+selectCodeEditor("hms_counter.v", 223, 483); // be
+selectCodeEditor("hms_counter.v", 241, 436); // be
+selectCodeEditor("hms_counter.v", 329, 437); // be
+selectCodeEditor("hms_counter.v", 130, 433); // be
+selectCodeEditor("hms_counter.v", 119, 383); // be
+selectCodeEditor("hms_counter.v", 222, 387); // be
+selectCodeEditor("hms_counter.v", 102, 484); // be
+selectCodeEditor("hms_counter.v", 615, 430); // be
+selectCodeEditor("hms_counter.v", 433, 416); // be
+selectCodeEditor("hms_counter.v", 546, 435); // be
+selectCodeEditor("hms_counter.v", 538, 435); // be
+selectCodeEditor("hms_counter.v", 321, 436); // be
+selectCodeEditor("hms_counter.v", 205, 429); // be
+selectCodeEditor("hms_counter.v", 109, 431); // be
+selectCodeEditor("hms_counter.v", 413, 441); // be
+selectCodeEditor("hms_counter.v", 235, 61); // be
+// Elapsed time: 15 seconds
+selectCodeEditor("hms_counter.v", 231, 385); // be
+selectCodeEditor("hms_counter.v", 123, 340); // be
+// Elapsed time: 34 seconds
+selectCodeEditor("hms_counter.v", 261, 396); // be
+selectCodeEditor("hms_counter.v", 263, 400); // be
+typeControlKey(null, null, 'z');
+selectCodeEditor("hms_counter.v", 294, 332); // be
+selectCodeEditor("hms_counter.v", 217, 402); // be
+selectCodeEditor("hms_counter.v", 217, 402, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "hms_counter.v", 'c'); // be
+selectCodeEditor("hms_counter.v", 222, 414); // be
+selectCodeEditor("hms_counter.v", 222, 414, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectCodeEditor("hms_counter.v", 221, 432); // be
+selectCodeEditor("hms_counter.v", 221, 432, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectCodeEditor("hms_counter.v", 218, 459); // be
+selectCodeEditor("hms_counter.v", 218, 459, false, false, false, false, true); // be - Double Click
+selectCodeEditor("hms_counter.v", 228, 468); // be
+selectCodeEditor("hms_counter.v", 228, 468, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectCodeEditor("hms_counter.v", 213, 451); // be
+selectCodeEditor("hms_counter.v", 213, 451, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+selectCodeEditor("hms_counter.v", 220, 483); // be
+selectCodeEditor("hms_counter.v", 220, 483, false, false, false, false, true); // be - Double Click
+typeControlKey((HResource) null, "hms_counter.v", 'v'); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("hms_counter.v", 531, 317); // be
+selectCodeEditor("hms_counter.v", 358, 467); // be
+selectCodeEditor("hms_counter.v", 358, 467, false, false, false, false, true); // be - Double Click
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectCodeEditor("digital_clock.v", 297, 325); // be
+selectCodeEditor("digital_clock.v", 297, 325, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 392, 350); // be
+selectCodeEditor("digital_clock.v", 392, 350, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 213, 341); // be
+selectCodeEditor("digital_clock.v", 213, 341, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 311, 347); // be
+selectCodeEditor("digital_clock.v", 311, 347, false, false, false, false, true); // be - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("digital_clock.v", 262, 216); // be
+selectCodeEditor("digital_clock.v", 223, 349); // be
+selectCodeEditor("digital_clock.v", 223, 349, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 226, 368); // be
+selectCodeEditor("digital_clock.v", 226, 368, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 226, 368); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.xdc", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 0); // m
+selectCodeEditor("hms_counter.v", 297, 301); // be
+selectCodeEditor("hms_counter.v", 298, 301, false, false, false, false, true); // be - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("digital_clock.v", 180, 387); // be
+selectCodeEditor("digital_clock.v", 180, 387, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 180, 387); // be
+selectCodeEditor("digital_clock.v", 182, 407); // be
+selectCodeEditor("digital_clock.v", 182, 407, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 182, 407); // be
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+selectCodeEditor("fourx1mux.v", 150, 174); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectCodeEditor("bcd_to_7_segment.v", 266, 42); // be
+typeControlKey((HResource) null, "bcd_to_7_segment.v", 'v'); // be
+selectCodeEditor("bcd_to_7_segment.v", 244, 96); // be
+selectCodeEditor("bcd_to_7_segment.v", 93, 115); // be
+selectCodeEditor("bcd_to_7_segment.v", 29, 110); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("bcd_to_7_segment.v", 121, 160); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectCodeEditor("bcd_to_7_segment.v", 42, 145); // be
+selectCodeEditor("bcd_to_7_segment.v", 42, 145, false, false, false, false, true); // be - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.xdc", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectCodeEditor("digital_clock.v", 120, 390); // be
+selectCodeEditor("digital_clock.v", 120, 390, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 120, 390); // be
+selectCodeEditor("digital_clock.v", 224, 405); // be
+selectCodeEditor("digital_clock.v", 224, 405, false, false, false, false, true); // be - Double Click
+selectCodeEditor("digital_clock.v", 187, 368); // be
+selectCodeEditor("digital_clock.v", 184, 379); // be
+selectCodeEditor("digital_clock.v", 184, 379, false, false, false, false, true); // be - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+// Elapsed time: 10 seconds
+selectCodeEditor("bcd_to_7_segment.v", 23, 166); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("bcd_to_7_segment.v", 135, 185); // be
+selectCodeEditor("bcd_to_7_segment.v", 133, 176); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+selectCodeEditor("fourx1mux.v", 27, 318); // be
+selectCodeEditor("fourx1mux.v", 109, 320); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+// Elapsed time: 13 seconds
+selectCodeEditor("bcd_to_7_segment.v", 370, 195); // be
+selectCodeEditor("bcd_to_7_segment.v", 57, 212); // be
+selectCodeEditor("bcd_to_7_segment.v", 71, 206); // be
+selectCodeEditor("bcd_to_7_segment.v", 66, 217); // be
+selectCodeEditor("bcd_to_7_segment.v", 136, 222); // be
+selectCodeEditor("bcd_to_7_segment.v", 77, 214); // be
+typeControlKey((HResource) null, "bcd_to_7_segment.v", 'c'); // be
+selectCodeEditor("bcd_to_7_segment.v", 118, 228); // be
+typeControlKey((HResource) null, "bcd_to_7_segment.v", 'v'); // be
+selectCodeEditor("bcd_to_7_segment.v", 115, 247); // be
+selectCodeEditor("bcd_to_7_segment.v", 120, 310); // be
+typeControlKey((HResource) null, "bcd_to_7_segment.v", 'v'); // be
+selectCodeEditor("bcd_to_7_segment.v", 279, 419); // be
+selectCodeEditor("bcd_to_7_segment.v", 125, 381); // be
+selectCodeEditor("bcd_to_7_segment.v", 168, 400); // be
+selectCodeEditor("bcd_to_7_segment.v", 107, 387); // be
+selectCodeEditor("bcd_to_7_segment.v", 116, 385); // be
+typeControlKey((HResource) null, "bcd_to_7_segment.v", 'v'); // be
+selectCodeEditor("bcd_to_7_segment.v", 103, 269); // be
+selectCodeEditor("bcd_to_7_segment.v", 82, 256); // be
+selectCodeEditor("bcd_to_7_segment.v", 82, 245); // be
+selectCodeEditor("bcd_to_7_segment.v", 82, 244, false, false, false, false, true); // be - Double Click
+selectCodeEditor("bcd_to_7_segment.v", 81, 314); // be
+selectCodeEditor("bcd_to_7_segment.v", 81, 314, false, false, false, false, true); // be - Double Click
+selectCodeEditor("bcd_to_7_segment.v", 412, 433); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectCodeEditor("digital_clock.v", 144, 427); // be
+selectCodeEditor("digital_clock.v", 306, 404); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectCodeEditor("digital_clock.v", 254, 384); // be
+typeControlKey((HResource) null, "digital_clock.v", 'c'); // be
+selectCodeEditor("digital_clock.v", 333, 403); // be
+typeControlKey((HResource) null, "digital_clock.v", 'v'); // be
+selectCodeEditor("digital_clock.v", 257, 428); // be
+selectCodeEditor("digital_clock.v", 235, 382); // be
+selectCodeEditor("digital_clock.v", 0, 383); // be
+selectCodeEditor("digital_clock.v", 609, 376); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bcd_to_7_segment.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fourx1mux.v", 2); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hms_counter.v", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 4); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "digital_clock.xdc", 6); // m
+selectCodeEditor("digital_clock.xdc", 805, 183); // be
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 10, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/digital_clock.dcp to C:/Users/youssefibrahim/Desktop/final project/final project.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May 17 18:33:17 2024] Launched synth_1... Run output will be captured here: C:/Users/youssefibrahim/Desktop/final project/final project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources, utils_1]", 15); // D
