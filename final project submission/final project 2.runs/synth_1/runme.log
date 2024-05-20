@@ -1,0 +1,331 @@
+
+*** Running vivado
+    with args -log fsm_final.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fsm_final.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source fsm_final.tcl -notrace
+Command: synth_design -top fsm_final -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8424
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fsm_final' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/fsm_final.v:22]
+INFO: [Synth 8-6157] synthesizing module 'push_button_detector' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/push_button_detector.v:33]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/debouncer.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/debouncer.v:41]
+INFO: [Synth 8-6157] synthesizing module 'synchronizer' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/synchronizer.v:37]
+INFO: [Synth 8-6157] synthesizing module 'flipflop' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/flipflop.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'flipflop' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/flipflop.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'synchronizer' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/synchronizer.v:37]
+INFO: [Synth 8-6157] synthesizing module 'risingedgedetector' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/rising_edge_detector.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'risingedgedetector' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/rising_edge_detector.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'push_button_detector' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/push_button_detector.v:33]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/fsm_final.v:86]
+INFO: [Synth 8-6157] synthesizing module 'digital_clock' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/digital_clock.v:22]
+INFO: [Synth 8-6157] synthesizing module 'clk_divider' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/clk_divider.v:23]
+	Parameter n bound to: 250000 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'counter' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+	Parameter x bound to: 32 - type: integer 
+	Parameter n bound to: 250000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_divider' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/clk_divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+	Parameter x bound to: 2 - type: integer 
+	Parameter n bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'hms_counter' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/hms_counter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'clk_divider__parameterized0' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/clk_divider.v:23]
+	Parameter n bound to: 50000 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized1' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+	Parameter x bound to: 32 - type: integer 
+	Parameter n bound to: 50000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized1' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_divider__parameterized0' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/clk_divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized2' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+	Parameter x bound to: 4 - type: integer 
+	Parameter n bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized2' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized3' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+	Parameter x bound to: 3 - type: integer 
+	Parameter n bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized3' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized4' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+	Parameter x bound to: 2 - type: integer 
+	Parameter n bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized4' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'hms_counter' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/hms_counter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'decimal_point' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/decimal_point.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_divider__parameterized1' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/clk_divider.v:23]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized5' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+	Parameter x bound to: 32 - type: integer 
+	Parameter n bound to: 50000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized5' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_divider__parameterized1' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/clk_divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'decimal_point' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/decimal_point.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bcd_to_7_segment' [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/bcd_to_7_segment.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bcd_to_7_segment' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/bcd_to_7_segment.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'digital_clock' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/digital_clock.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'fsm_final' (0#1) [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/fsm_final.v:22]
+WARNING: [Synth 8-3848] Net minutes_new in module/entity fsm_final does not have driver. [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/fsm_final.v:47]
+WARNING: [Synth 8-3848] Net minutes2_new in module/entity fsm_final does not have driver. [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/fsm_final.v:48]
+WARNING: [Synth 8-3848] Net hours_new in module/entity fsm_final does not have driver. [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/fsm_final.v:49]
+WARNING: [Synth 8-3848] Net hours2_new in module/entity fsm_final does not have driver. [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/sources_1/new/fsm_final.v:50]
+WARNING: [Synth 8-7129] Port minutes__[3] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port minutes__[2] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port minutes__[1] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port minutes__[0] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port minutes2__[2] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port minutes2__[1] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port minutes2__[0] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hours__[3] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hours__[2] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hours__[1] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hours__[0] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hours2__[1] in module digital_clock is either unconnected or has no load
+WARNING: [Synth 8-7129] Port hours2__[0] in module digital_clock is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1284.801 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/constrs_1/new/digital_clock.xdc]
+Finished Parsing XDC File [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/constrs_1/new/digital_clock.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/youssefibrahim/Desktop/final project 2/final project 2.srcs/constrs_1/new/digital_clock.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fsm_final_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fsm_final_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1284.801 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'risingedgedetector'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'fsm_final'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                       A |                               00 |                               00
+                       B |                               01 |                               01
+                       C |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'risingedgedetector'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   clock |                              000 |                              000
+            adjust_hours |                              001 |                              001
+             adjust_mins |                              010 |                              010
+      adjust_hours_alarm |                              011 |                              011
+       adjust_mins_alarm |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'fsm_final'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 29    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   2 Input    4 Bit        Muxes := 3     
+	   4 Input    4 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 10    
+	   5 Input    3 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 5     
+	   2 Input    2 Bit        Muxes := 17    
+	   2 Input    1 Bit        Muxes := 13    
+	   4 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (Up/red/FSM_sequential_state_reg[1]) is unused and will be removed from module fsm_final.
+WARNING: [Synth 8-3332] Sequential element (Up/red/FSM_sequential_state_reg[0]) is unused and will be removed from module fsm_final.
+WARNING: [Synth 8-3332] Sequential element (d/red/FSM_sequential_state_reg[1]) is unused and will be removed from module fsm_final.
+WARNING: [Synth 8-3332] Sequential element (d/red/FSM_sequential_state_reg[0]) is unused and will be removed from module fsm_final.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    24|
+|3     |LUT1   |     8|
+|4     |LUT2   |     9|
+|5     |LUT3   |    18|
+|6     |LUT4   |    34|
+|7     |LUT5   |   111|
+|8     |LUT6   |    13|
+|9     |FDCE   |   139|
+|10    |FDRE   |     7|
+|11    |IBUF   |     6|
+|12    |OBUF   |    17|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1284.801 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1284.801 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1284.801 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1284.801 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1286.398 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 861b3286
+INFO: [Common 17-83] Releasing license: Synthesis
+60 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1286.398 ; gain = 1.598
+INFO: [Common 17-1381] The checkpoint 'C:/Users/youssefibrahim/Desktop/final project 2/final project 2.runs/synth_1/fsm_final.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fsm_final_utilization_synth.rpt -pb fsm_final_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon May 20 03:45:34 2024...

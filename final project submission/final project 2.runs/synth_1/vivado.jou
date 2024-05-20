@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon May 20 03:44:56 2024
+# Process ID: 1756
+# Current directory: C:/Users/youssefibrahim/Desktop/final project 2/final project 2.runs/synth_1
+# Command line: vivado.exe -log fsm_final.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fsm_final.tcl
+# Log file: C:/Users/youssefibrahim/Desktop/final project 2/final project 2.runs/synth_1/fsm_final.vds
+# Journal file: C:/Users/youssefibrahim/Desktop/final project 2/final project 2.runs/synth_1\vivado.jou
+# Running On: CSE-P07-2168-83, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 8, Host memory: 34020 MB
+#-----------------------------------------------------------
+source fsm_final.tcl -notrace
